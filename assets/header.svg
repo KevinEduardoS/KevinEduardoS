@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Kevin Samboni — Frontend Developer, QA y Testing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e1a"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#6366f1" stop-opacity="0.55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#0ea5e9" stop-opacity="0.4"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowC"><stop offset="0" stop-color="#10b981" stop-opacity="0.35"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+    <linearGradient id="role" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a5b4fc"/><stop offset="0.5" stop-color="#7dd3fc"/><stop offset="1" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.7"/><stop offset="1" stop-color="#34d399" stop-opacity="0.5"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1280" height="380" fill="url(#fade)"/></mask>
+    <clipPath id="frame"><rect width="1280" height="380" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .float-a { animation: drift 16s ease-in-out infinite; transform-origin: center; }
+    .float-b { animation: drift 20s ease-in-out infinite reverse; transform-origin: center; }
+    .float-c { animation: drift 24s ease-in-out infinite; transform-origin: center; }
+    @keyframes drift { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(40px, -24px); } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes line0 { 0%, 12% { opacity: 0; transform: translateY(6px); } 16%, 88% { opacity: 1; transform: none; } 96%, 100% { opacity: 0; } }
+    @keyframes line1 { 0%, 21% { opacity: 0; transform: translateY(6px); } 25%, 88% { opacity: 1; transform: none; } 96%, 100% { opacity: 0; } }
+    @keyframes line2 { 0%, 30% { opacity: 0; transform: translateY(6px); } 34%, 88% { opacity: 1; transform: none; } 96%, 100% { opacity: 0; } }
+    @keyframes line3 { 0%, 39% { opacity: 0; transform: translateY(6px); } 43%, 88% { opacity: 1; transform: none; } 96%, 100% { opacity: 0; } }
+    @keyframes summary { 0%, 52% { opacity: 0; } 56%, 88% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    .line0 { animation: line0 9s ease-out infinite; }
+    .line1 { animation: line1 9s ease-out infinite; }
+    .line2 { animation: line2 9s ease-out infinite; }
+    .line3 { animation: line3 9s ease-out infinite; }
+    .summary { animation: summary 9s ease-out infinite; }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="380" fill="url(#bg)"/>
+    <rect width="1280" height="380" fill="url(#grid)" mask="url(#gridMask)"/>
+    <circle class="float-a" cx="180" cy="40" r="300" fill="url(#glowA)"/>
+    <circle class="float-b" cx="1060" cy="60" r="280" fill="url(#glowB)"/>
+    <circle class="float-c" cx="700" cy="420" r="260" fill="url(#glowC)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="379" rx="20" fill="none" stroke="#30363d"/>
+
+  <g font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="64" y="70" width="252" height="32" rx="16" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.35"/>
+    <circle class="pulse" cx="86" cy="86" r="5" fill="#34d399"/>
+    <text x="100" y="91" font-size="14" font-weight="600" fill="#6ee7b7">Abierto a nuevas oportunidades</text>
+
+    <text x="62" y="174" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1.5">Kevin Samboni</text>
+    <text x="64" y="222" font-size="28" font-weight="600" fill="url(#role)">Frontend Developer · QA &amp; Testing</text>
+    <text x="64" y="262" font-size="18" fill="#8b949e">Construyo interfaces cuidadas y me aseguro de que funcionen.</text>
+
+    <rect x="64" y="296" width="63.2" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="95.6" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">React</text>
+    <rect x="135.2" y="296" width="78.88" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="174.64" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">Angular</text>
+    <rect x="222.07999999999998" y="296" width="102.4" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="273.28" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">TypeScript</text>
+    <rect x="332.48" y="296" width="78.88" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="371.92" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">Node.js</text>
+    <rect x="419.36" y="296" width="102.4" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="470.56" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">Playwright</text>
+    <rect x="529.76" y="296" width="39.68" height="28" rx="14" fill="#161b22" stroke="#3d444d"/>
+    <text x="549.6" y="314.5" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6edf3">IA</text>
+  </g>
+
+  <g transform="translate(760 64)">
+    <rect width="456" height="252" rx="14" fill="#010409" fill-opacity="0.85" stroke="url(#border)" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="6" fill="#f87171" fill-opacity="0.8"/>
+    <circle cx="42" cy="22" r="6" fill="#fbbf24" fill-opacity="0.8"/>
+    <circle cx="62" cy="22" r="6" fill="#34d399" fill-opacity="0.8"/>
+    <text x="228" y="27" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#6e7681">qa-pipeline</text>
+    <line x1="0" y1="44" x2="456" y2="44" stroke="#21262d"/>
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14">
+      <text x="22" y="76" fill="#8b949e"><tspan fill="#7dd3fc">$</tspan> npx playwright test</text>
+      <g class="line0">
+        <text x="22" y="110" fill="#c9d1d9"><tspan fill="#34d399">✓</tspan>  login con credenciales inválidas</text>
+        <text x="434" y="110" text-anchor="end" fill="#6e7681">1.2s</text>
+      </g>
+      <g class="line1">
+        <text x="22" y="138" fill="#c9d1d9"><tspan fill="#34d399">✓</tspan>  añadir producto al carrito</text>
+        <text x="434" y="138" text-anchor="end" fill="#6e7681">2.4s</text>
+      </g>
+      <g class="line2">
+        <text x="22" y="166" fill="#c9d1d9"><tspan fill="#34d399">✓</tspan>  validación del formulario</text>
+        <text x="434" y="166" text-anchor="end" fill="#6e7681">0.9s</text>
+      </g>
+      <g class="line3">
+        <text x="22" y="194" fill="#c9d1d9"><tspan fill="#34d399">✓</tspan>  diagnóstico de fallo con IA</text>
+        <text x="434" y="194" text-anchor="end" fill="#6e7681">1.7s</text>
+      </g>
+      <text class="summary" x="22" y="230" fill="#34d399" font-weight="700">4 passed <tspan fill="#6e7681" font-weight="400">(6.2s)</tspan><tspan class="cursor" fill="#c9d1d9"> ▍</tspan></text>
+    </g>
+  </g>
+</svg>

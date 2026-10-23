@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-label="Frontend, QA y Testing, IA y automatización">
+  <g font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <g transform="translate(0 0)">
+    <clipPath id="card0"><rect x="0.5" y="0.5" width="399" height="199" rx="16"/></clipPath>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="#0d1117"/>
+    <rect x="0" y="0" width="400" height="4" fill="#818cf8" fill-opacity="0.9" clip-path="url(#card0)"/>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="none" stroke="#30363d"/>
+    <rect x="28" y="32" width="48" height="48" rx="12" fill="#818cf8" fill-opacity="0.12" stroke="#818cf8" stroke-opacity="0.35"/>
+    <g transform="translate(36 40)" color="#818cf8"><path d="M8 10l-5 6 5 6M24 10l5 6-5 6M19 7l-6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="96" y="64" font-size="22" font-weight="700" fill="#e6edf3">Frontend</text>
+    <text x="28" y="120" font-size="16" fill="#8b949e">Interfaces con React y Angular, TypeScript y</text>
+    <text x="28" y="146" font-size="16" fill="#8b949e">Tailwind, pensadas para el usuario.</text>
+  </g>
+  <g transform="translate(440 0)">
+    <clipPath id="card1"><rect x="0.5" y="0.5" width="399" height="199" rx="16"/></clipPath>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="#0d1117"/>
+    <rect x="0" y="0" width="400" height="4" fill="#34d399" fill-opacity="0.9" clip-path="url(#card1)"/>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="none" stroke="#30363d"/>
+    <rect x="28" y="32" width="48" height="48" rx="12" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.35"/>
+    <g transform="translate(36 40)" color="#34d399"><path d="M16 3l10 4v8c0 7-4.5 11.5-10 14-5.5-2.5-10-7-10-14V7z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M11 16l3.5 3.5L21 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="96" y="64" font-size="22" font-weight="700" fill="#e6edf3">QA &amp; Testing</text>
+    <text x="28" y="120" font-size="16" fill="#8b949e">Pruebas funcionales y de regresión, flujos</text>
+    <text x="28" y="146" font-size="16" fill="#8b949e">críticos y automatización con Playwright.</text>
+  </g>
+  <g transform="translate(880 0)">
+    <clipPath id="card2"><rect x="0.5" y="0.5" width="399" height="199" rx="16"/></clipPath>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="#0d1117"/>
+    <rect x="0" y="0" width="400" height="4" fill="#7dd3fc" fill-opacity="0.9" clip-path="url(#card2)"/>
+    <rect x="0.5" y="0.5" width="399" height="199" rx="16" fill="none" stroke="#30363d"/>
+    <rect x="28" y="32" width="48" height="48" rx="12" fill="#7dd3fc" fill-opacity="0.12" stroke="#7dd3fc" stroke-opacity="0.35"/>
+    <g transform="translate(36 40)" color="#7dd3fc"><path d="M16 4l2.6 7.4L26 14l-7.4 2.6L16 24l-2.6-7.4L6 14l7.4-2.6z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="25" cy="25" r="2.2" fill="currentColor"/></g>
+    <text x="96" y="64" font-size="22" font-weight="700" fill="#e6edf3">IA &amp; Automatización</text>
+    <text x="28" y="120" font-size="16" fill="#8b949e">Modelos de lenguaje integrados en flujos</text>
+    <text x="28" y="146" font-size="16" fill="#8b949e">reales y diseño de procesos automáticos.</text>
+  </g>
+  </g>
+</svg>
