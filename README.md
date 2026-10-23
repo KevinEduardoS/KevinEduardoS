@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://kevin-samboni-portfolio.vercel.app">
-    <img src="assets/header.svg" width="100%" alt="Kevin Samboni — Frontend Developer, QA y Testing. Abierto a nuevas oportunidades." />
+    <img src="assets/header.svg" width="100%" alt="Kevin Samboni — Ingeniero de software full stack. Abierto a nuevas oportunidades." />
   </a>
 </p>
 
@@ -13,9 +13,11 @@
 
 ## Lo que hago
 
-<img src="assets/focus.svg" width="100%" alt="Frontend con React y Angular; QA y Testing con pruebas funcionales, de regresión y Playwright; IA y automatización de procesos." />
+<img src="assets/focus.svg" width="100%" alt="Full stack con React, TypeScript, Tailwind CSS y Node.js; QA y testing con pruebas funcionales, de regresión y Playwright; IA y automatización de procesos." />
 
-Desarrollador frontend con foco en **calidad de software**. Me gusta construir interfaces cuidadas y asegurarme de que funcionen con pruebas que detectan los fallos antes que los usuarios. También me ocupo del levantamiento de requerimientos y la documentación técnica. Español nativo, inglés en progreso.
+Ingeniero de software **full stack** con experiencia en desarrollo frontend (JavaScript, React, TypeScript y Tailwind CSS), backend con Node.js, **aseguramiento de calidad (QA)**, levantamiento de requerimientos y documentación técnica, forjada en proyectos del **sector público** y en aplicaciones propias.
+
+Me enfoco en construir **productos confiables** mediante testing riguroso y automatización de procesos, con conocimientos complementarios en Machine Learning y NLP. Español nativo, inglés en progreso.
 
 ## Tecnologías
 

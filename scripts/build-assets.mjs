@@ -56,7 +56,7 @@ const header = () => {
   }).join('\n    ');
   const summaryStart = 12 + TEST_LINES.length * 9 + 4;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Kevin Samboni — Frontend Developer, QA y Testing">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Kevin Samboni — Ingeniero de software full stack, QA y testing">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b0e1a"/>
@@ -110,10 +110,10 @@ const header = () => {
     <text x="100" y="91" font-size="14" font-weight="600" fill="#6ee7b7">Abierto a nuevas oportunidades</text>
 
     <text x="62" y="174" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1.5">Kevin Samboni</text>
-    <text x="64" y="222" font-size="28" font-weight="600" fill="url(#role)">Frontend Developer · QA &amp; Testing</text>
-    <text x="64" y="262" font-size="18" fill="#8b949e">Construyo interfaces cuidadas y me aseguro de que funcionen.</text>
+    <text x="64" y="222" font-size="28" font-weight="600" fill="url(#role)">Ingeniero de Software · Full Stack</text>
+    <text x="64" y="262" font-size="18" fill="#8b949e">Productos confiables con testing riguroso y automatización.</text>
 
-    ${chips(['React', 'Angular', 'TypeScript', 'Node.js', 'Playwright', 'IA'], 64, 296, { size: 14, color: '#e6edf3', stroke: '#3d444d' })}
+    ${chips(['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Playwright', 'IA'], 64, 296, { size: 14, color: '#e6edf3', stroke: '#3d444d' })}
   </g>
 
   <g transform="translate(760 64)">
@@ -142,10 +142,10 @@ const header = () => {
 
 const FOCUS = [
   {
-    title: 'Frontend',
+    title: 'Full Stack',
     color: '#818cf8',
     icon: '<path d="M8 10l-5 6 5 6M24 10l5 6-5 6M19 7l-6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
-    text: 'Interfaces con React y Angular, TypeScript y Tailwind, pensadas para el usuario.',
+    text: 'Frontend con React, TypeScript y Tailwind CSS, y backend con Node.js.',
   },
   {
     title: 'QA & Testing',
@@ -164,7 +164,7 @@ const FOCUS = [
 const focus = () => {
   const width = 400;
   const gap = 40;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-label="Frontend, QA y Testing, IA y automatización">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-label="Full stack, QA y testing, IA y automatización">
   <g font-family="${FONT}">
   ${FOCUS.map((item, index) => {
     const x = index * (width + gap);
