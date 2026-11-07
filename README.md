@@ -1,65 +1,43 @@
-<p align="center">
-  <a href="https://kevin-samboni-portfolio.vercel.app">
-    <img src="assets/header.svg" width="100%" alt="Kevin Samboni — Ingeniero de software full stack. Abierto a nuevas oportunidades." />
-  </a>
-</p>
+### Kevin Samboni
 
-<p align="center">
-  <a href="https://kevin-samboni-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portafolio-0d1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=4f46e5" alt="Portafolio" /></a>
-  <a href="https://www.linkedin.com/in/kevin-samboni-gonzalez-53a0a03a0/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="https://github.com/KevinEduardoS/Testpilot"><img src="https://img.shields.io/badge/Proyecto_destacado-TestPilot-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=10b981" alt="Proyecto destacado: TestPilot" /></a>
-</p>
+Ingeniero de software full stack con foco en calidad. Construyo aplicaciones web con React, TypeScript y Node.js, y me ocupo de que funcionen: pruebas automatizadas, flujos críticos validados y decisiones documentadas.
 
-<br />
+Mi experiencia viene de proyectos del sector público y de aplicaciones propias, desde el levantamiento de requerimientos hasta el despliegue. Ingeniero de Software por la Universidad Surcolombiana · Neiva, Colombia.
 
-## Lo que hago
+[Portafolio](https://kevin-samboni-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevin-samboni-gonzalez-53a0a03a0/)
 
-<img src="assets/focus.svg" width="100%" alt="Full stack con React, TypeScript, Tailwind CSS y Node.js; QA y testing con pruebas funcionales, de regresión y Playwright; IA y automatización de procesos." />
+---
 
-Ingeniero de software **full stack** con experiencia en desarrollo frontend (JavaScript, React, TypeScript y Tailwind CSS), backend con Node.js, **aseguramiento de calidad (QA)**, levantamiento de requerimientos y documentación técnica, forjada en proyectos del **sector público** y en aplicaciones propias.
+#### Proyectos
 
-Me enfoco en construir **productos confiables** mediante testing riguroso y automatización de procesos, con conocimientos complementarios en Machine Learning y NLP. Español nativo, inglés en progreso.
+**[TestPilot](https://github.com/KevinEduardoS/Testpilot)** — Pruebas end-to-end a partir de lenguaje natural. Genera scripts de Playwright, los ejecuta en Chromium aislado transmitiendo cada paso en vivo y, cuando fallan, distingue si el error es de la prueba o un bug real del sitio. El código generado pasa por una política de seguridad sobre su AST y la red del navegador queda limitada a dominios permitidos. 194 tests.
+<br><sub>TypeScript · React · Fastify · Playwright · Zod · Claude API · Docker</sub>
 
-## Tecnologías
+**[StoryLint](https://github.com/KevinEduardoS/storylint)** · [demo](https://storylint-coral.vercel.app) — Linter de historias de usuario para equipos ágiles. Detecta ambigüedades, valida la estructura, propone criterios de aceptación, genera casos de prueba y puntúa la calidad del requisito de 0 a 100.
+<br><sub>Next.js · TypeScript · Tailwind CSS</sub>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,angular,nextjs,html,css,tailwind,nodejs&perline=9" alt="TypeScript, JavaScript, React, Angular, Next.js, HTML, CSS, Tailwind CSS y Node.js" />
-  <br /><br />
-  <img src="https://skillicons.dev/icons?i=vitest,kotlin,androidstudio,git,github,docker,vercel,figma&perline=8" alt="Vitest, Kotlin, Android Studio, Git, GitHub, Docker, Vercel y Figma" />
-  <br /><br />
-  <img src="https://img.shields.io/badge/Playwright-0d1117?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Claude_API-0d1117?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude API" />
-  <img src="https://img.shields.io/badge/Machine_Learning_·_NLP-0d1117?style=for-the-badge&logo=python&logoColor=8B5CF6" alt="Machine Learning y NLP" />
-</p>
+**[IncidentFlow](https://github.com/KevinEduardoS/-IncidentFlow)** · [demo](https://incidentflow-three.vercel.app) — Gestión de incidencias con un flujo de seis estados validado en el servidor, tablero kanban, roles y permisos, y auditoría de cada cambio. 42 pruebas unitarias, de integración y end-to-end en CI.
+<br><sub>React · TypeScript · Node.js · Express · PostgreSQL</sub>
 
-## Proyectos
+**[CoffeTech](https://github.com/KevinEduardoS/CoffeTech)** — Aplicación Android nativa.
+<br><sub>Kotlin · Android</sub>
 
-<p align="center">
-  <a href="https://github.com/KevinEduardoS/Testpilot"><img src="assets/project-testpilot.svg" width="49%" alt="TestPilot: pruebas Playwright generadas, ejecutadas y diagnosticadas con IA" /></a>
-  <a href="https://storylint-coral.vercel.app"><img src="assets/project-storylint.svg" width="49%" alt="StoryLint: linter de historias de usuario con demo en vivo" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/KevinEduardoS/-IncidentFlow"><img src="assets/project-incidentflow.svg" width="49%" alt="IncidentFlow: gestión de incidencias full-stack" /></a>
-  <a href="https://github.com/KevinEduardoS/CoffeTech"><img src="assets/project-coffetech.svg" width="49%" alt="CoffeTech: aplicación Android en Kotlin" /></a>
-</p>
+#### Experiencia
 
-## Actividad
+**Alcaldía de Neiva** · Desarrollador web y QA (prácticas profesionales) · 2025
+<br>Sistema para la gestión y el reparto automático de querellas y despachos comisorios, con algoritmos de asignación de casos y pruebas de calidad sobre los flujos ciudadanos.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KevinEduardoS&layout=compact&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&card_width=480&disable_animations=true&locale=es" alt="Lenguajes más usados" />
-</p>
+**Universidad Surcolombiana** · Desarrollador web y capacitador · 2023 – 2024
+<br>Aplicaciones web con JavaScript, React y Angular para plataformas institucionales, diseño de interfaces con equipos multidisciplinarios y capacitaciones en fundamentos de IA aplicada.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinEduardoS/KevinEduardoS/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/KevinEduardoS/KevinEduardoS/output/github-snake.svg" width="100%" alt="Serpiente que recorre el gráfico de contribuciones" />
-  </picture>
-</p>
+#### Stack
 
-<p align="center">
-  <b>¿Construimos algo juntos?</b><br /><br />
-  <a href="https://www.linkedin.com/in/kevin-samboni-gonzalez-53a0a03a0/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="https://kevin-samboni-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portafolio-0d1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=4f46e5" alt="Portafolio" /></a>
-</p>
+| Área | Tecnologías |
+|---|---|
+| Frontend | React, Angular, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML, CSS |
+| Backend | Node.js, Express, Fastify, PostgreSQL, MySQL |
+| Calidad | Playwright, Vitest, pruebas funcionales y de regresión, validación de flujos críticos |
+| Herramientas | Git, GitHub Actions, Docker, Vercel, Figma, Android Studio |
+| IA | Integración de LLMs (Claude API), fundamentos de Machine Learning y NLP |
 
-<img src="assets/footer.svg" width="100%" alt="" />
+<sub>Español nativo · inglés en progreso</sub>
