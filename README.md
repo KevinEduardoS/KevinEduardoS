@@ -10,7 +10,7 @@ Mi experiencia viene de proyectos del sector público y de aplicaciones propias,
 
 #### Proyectos
 
-**[TestPilot](https://github.com/KevinEduardoS/Testpilot)** · [demo](https://testpilot-flame.vercel.app) — Pruebas end-to-end a partir de lenguaje natural. Genera scripts de Playwright, los ejecuta en Chromium aislado transmitiendo cada paso en vivo y, cuando fallan, distingue si el error es de la prueba o un bug real del sitio. El código generado pasa por una política de seguridad sobre su AST y la red del navegador queda limitada a dominios permitidos. 194 tests.
+**[TestPilot](https://github.com/KevinEduardoS/Testpilot)** · [demo](https://testpilot-flame.vercel.app) — Pruebas end-to-end a partir de lenguaje natural. Genera scripts de Playwright, los ejecuta en Chromium aislado transmitiendo cada paso en vivo y, cuando fallan, distingue si el error es de la prueba o un bug real del sitio. El código generado pasa por una política de seguridad sobre su AST y la red del navegador queda limitada a dominios permitidos. 208 tests.
 <br><sub>TypeScript · React · Fastify · Playwright · Zod · Claude API · Docker</sub>
 
 **[StoryLint](https://github.com/KevinEduardoS/storylint)** · [demo](https://storylint-coral.vercel.app) — Linter de historias de usuario para equipos ágiles. Detecta ambigüedades, valida la estructura, propone criterios de aceptación, genera casos de prueba y puntúa la calidad del requisito de 0 a 100.
