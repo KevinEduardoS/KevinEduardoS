@@ -2,7 +2,7 @@
 
 Ingeniero de software full stack con foco en calidad. Construyo aplicaciones web con React, TypeScript y Node.js, y me ocupo de que funcionen: pruebas automatizadas, flujos críticos validados y decisiones documentadas.
 
-Mi experiencia viene de proyectos del sector público y de aplicaciones propias, desde el levantamiento de requerimientos hasta el despliegue. Ingeniero de Software por la Universidad Surcolombiana · Neiva, Colombia.
+Mi experiencia viene de proyectos del sector público y de aplicaciones propias, desde el levantamiento de requerimientos hasta el despliegue. Ingeniero de Software de la Universidad Surcolombiana · Neiva, Colombia.
 
 [Portafolio](https://kevin-samboni-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevin-samboni-gonzalez-53a0a03a0/)
 
